@@ -7,7 +7,7 @@ Vivado 2023.1 or equivalent Verilog simulation tool.
 
 Procedure
 Launch Vivado 2023.1:
-
+ 
 Open Vivado and create a new project.
 Write the Verilog Code for Swapping:
 
@@ -93,6 +93,9 @@ module swap_three_numbers_tb;
         #10 $stop;
     end
 endmodule
+output
+![WhatsApp Image 2025-04-19 at 2 25 38 PM](https://github.com/user-attachments/assets/5c82f808-49a5-4637-b1e8-663288a91ebf)
+
 
 Conclusion
 In this experiment, a Verilog HDL code for swapping three numbers was designed and successfully simulated. The testbench verified the swapping operation, showing that the values of three input numbers (a, b, and c) were swapped correctly without the use of temporary variables. This experiment demonstrated the effectiveness of Verilog in implementing logical operations and control mechanisms such as swapping values. The simulation results confirm the correct functionality of the design.
